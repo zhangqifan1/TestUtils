@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:circle="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+        <!--circle:type="rounded_rect"-->
+        <com.bawei.monthrepeat1.View.ImageViewPlus
+            android:id="@+id/circle"
+            circle:type="circle"
+            circle:borderColor="#5000"
+            circle:borderWidth="10dp"
+            circle:rectRoundRadius="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
